@@ -5,6 +5,6 @@ The regression models were fitted on the entire dataset, along with subsets for 
 
 I tested seven different classification algorithms to classify a country as developing or developed. The models obtained testing set balanced accuracies ranging from 86% - 99%. From best to worst, the models included gradient boosting, random forest, Adaptive Boosting (AdaBoost), decision tree, k-nearest neighbors, support-vector machines, and naive Bayes. I tuned all the models' hyperparameters. None of the models overfitted the training set.
 
-The data is from Kaggle and could be found at https://www.kaggle.com/kumarajarshi/life-expectancy-who
+The data is from Kaggle and could be found at https://www.kaggle.com/kumarajarshi/life-expectancy-who. The clean dataset used is uploaded. 
 
-The Python libraries used include: pandas (1.2.3), matplotlib.pyplot
+The Python libraries used include: pandas (1.2.3), matplotlib (3.2.2), NumPy (1.20.1), seaborn (0.11.1), and scikit-learn (0.24.1)
